@@ -1,0 +1,30 @@
+li:nth-of-type(odd){
+    border-color: grey;
+    background-color: grey;
+    border-style: solid;
+    color: black;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    width: 30%;
+    align-content: space-around;
+    text-align: center;
+}
+li:nth-of-type(even){
+    border-color: grey;
+    background-color: grey;
+    border-style: solid;
+    color: black;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    width: 30%;
+    align-content: space-around;
+    text-align: center;
+}
+li:last-child{
+    border-color:rgb(178, 230, 126);
+    background-color: rgb(178, 230, 126);
+}
+li:nth-child(3){
+    border-color:rgb(178, 230, 126);
+    background-color: rgb(178, 230, 126);
+}

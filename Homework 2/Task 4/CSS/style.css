@@ -1,0 +1,28 @@
+header, nav{
+    float: top ;
+    background-color: rgb(111, 182, 182);
+}
+#sidebar{
+    float: left;
+    border-style: solid;
+    background-color: rgb(91, 133, 250);
+    border-color: rgb(91, 133, 250);
+    width: 320px;
+    height: 500px;
+}
+#content{
+    float: center;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    background-color: rgb(150, 172, 233);
+    border-color: rgb(150, 172, 233);
+}
+aside{
+    float: right;
+    width: 320px;
+    height: 500px;
+    border-style: solid;
+    background-color: rgb(91, 133, 250);
+    border-color: rgb(91, 133, 250);
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(194, 192, 192);
+    max-height: 1000px;
+}
+div{
+    border-color: red;
+    border-style: solid;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    padding: 30px;
+    width: calc(50%);
+    height: calc (50%);
+}
