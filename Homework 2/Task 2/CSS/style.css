@@ -1,0 +1,7 @@
+ul li:first-child{
+    color:red;
+}
+ul li:last-child{
+    color: green;
+    font-style: italic;
+}
