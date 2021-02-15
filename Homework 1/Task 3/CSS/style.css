@@ -1,0 +1,23 @@
+i{
+    color: gray;
+    transition: all 0.3s ease;
+}
+li{
+    list-style: none;
+    font-size: 50px;
+}
+.link-facebook :hover {
+    color: #3b5998;}
+.link-youtube :hover{
+    color: #bb0000
+}
+.link-instagram :hover{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.link-pinterest :hover{
+    color: #cb2027
+}
