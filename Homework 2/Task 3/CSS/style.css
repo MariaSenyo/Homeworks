@@ -1,0 +1,21 @@
+li{
+    border: 1px solid #cbcbcb;
+    background-color: #eee;
+    color: black;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    width: 30%;
+    text-align: center;
+    min-height: 60px;
+    line-height: 60px;  
+}
+
+li:last-child{
+    border-color:#aed991;
+    background-color: #ccffaa;
+}
+li:nth-child(3){
+    border-color:#aed991;
+    background-color: #ccffaa;
+}
+
