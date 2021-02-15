@@ -1,3 +1,6 @@
+h1, li{
+    font-family: sans-serif;
+}
 ul li{
     list-style: square;
 }
