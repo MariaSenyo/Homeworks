@@ -1,0 +1,47 @@
+header{
+    background-color: #afd1af;
+    min-height: 100px;
+    width: 100%;
+}
+nav{
+    background-color: #67be65;
+    min-height: 50px;
+    width: 100%;
+}
+div#content-wrapper{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+#sidebar{
+    float: left;
+    background-color: #5a92d8;
+    min-height: 350px;
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+#content{
+    background-color: #96b4da;
+    min-height: 350px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+aside{
+    float: right;
+    background-color: #5a92d8;
+    width: 25%;
+    min-height: 350px;
+    text-align: center;
+    color: white;
+}
+li{
+    list-style: none;
+}
+footer{
+    background-color: #afd1af;
+    min-height: 100px;
+    width: 100%;
+    clear: both;
+}
