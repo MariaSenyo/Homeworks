@@ -1,0 +1,16 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;   
+}
+
+div{
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: cadetblue;
+    border-right: 20px gray solid;
+    border-left: 20px gray solid;
+    border-radius: 15px;
+    padding: 15px;
+}

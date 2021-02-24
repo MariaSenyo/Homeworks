@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body{
+    position: relative;
+    height: 100vh;
+}
+.shadow{
+    min-height: 400px;
+    width: 100%;
+    max-width: 1000px;
+    padding: 100px 30px;
+    background-image: radial-gradient( #63757f, #6e828b, #445861);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.shadow div{
+    display: inline-block;
+    line-height: 1;
+    font-size: 150px;   
+    font-family: Staatliches;
+    color: #7a8d96;
+    text-align:center;
+    text-transform: uppercase;
+}
+.first_shadow{
+    text-shadow: 0px 7px 5px #455a63;
+    margin: 0 10px;
+}
+.second_shadow{
+    text-shadow: 10px 15px 15px #172a33;
+    margin: 0 10px;
+}
