@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-top: 32px;
+    padding-bottom: 70px;
+    width: 1440px;
+    margin: 0 auto;
+    max-width: 96%;
+    display: grid;
+    grid-template-columns: 660px 660px;
+    grid-template-rows: 184px 184px 184px 184px 184px;
+    grid-gap: 64px 24px; 
+}
+.dark-activities{
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+}
+.light-activities{
+    background: mistyrose;
+    border-radius: 16px;
+}
