@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(237, 238, 240);
+}
+.container{
+    padding-top: 32px;
+    padding-bottom: 70px;
+    width: 1350px;
+    margin: 0 auto;
+    max-width: 96%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 64px 24px; 
+}
+.dark-activities{
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+    padding: 20px 20px 40px 40px;
+}
+.light-activities{
+    background: rgb(250, 249, 249);
+    border-radius: 16px;
+    padding: 20px 20px 40px 40px;
+}
+.wrapper{
+    display: grid;
+    grid-column-gap: 85px;
+    max-width: 100%;
+    grid-template-columns: 45% 40%;
+}
+.schedule{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: #FFFFFF;
+    align-content: center;
+    padding-top: 60px;
+}
+.schedule h5{
+    max-width: 218px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.schedule h4{
+    max-width: 265px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.activity img{
+    max-width: 265px;
+    max-height: 200px;
+    margin-bottom: -80px;
+}
+.light-activities .schedule{
+    color: #b65741;
+}
